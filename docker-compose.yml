@@ -1,0 +1,10 @@
+services:
+  folder-analyzer:
+    image: psyman2000/folder-analyser:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - <./path/to/folder>:/data:ro  # Change this to your path
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
