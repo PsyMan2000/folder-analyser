@@ -1,6 +1,8 @@
 # Folder Size Analyzer
 
-A Docker application that scans mounted volumes and displays folder sizes with beautiful graphical visualizations.
+Disclaimer - I asked Claude to create this in a very short prompt while bored, to be honest I could have done muich the same with a du command but it is an interesting way to test Claude out I guess.
+
+Quote Claude "A Docker application that scans mounted volumes and displays folder sizes with beautiful graphical visualizations." :-)
 
 ## Quick Start
 
