@@ -1,6 +1,7 @@
 services:
   folder-analyzer:
-    image: psyman2000/folder-analyser:latest
+    build: .
+#    image: psyman2000/folder-analyser:latest  # Use this instead of build optional
     ports:
       - "3000:3000"
     volumes:
